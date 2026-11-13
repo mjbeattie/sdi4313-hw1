@@ -1,4 +1,4 @@
-name: aai4323_hw10
+name: sdi4313_hw1
 channels:
   - conda-forge
   - defaults
