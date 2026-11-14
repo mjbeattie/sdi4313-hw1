@@ -1,5 +1,5 @@
 {
-    "name": "AAI4323 HW10 Python Environment",
+    "name": "SDI4313 HW1 Python Environment",
     "image": "mcr.microsoft.com/devcontainers/miniconda:latest",
     "features": {
         "ghcr.io/devcontainers/features/github-cli:1": {}
@@ -12,7 +12,7 @@
                 "ms-toolsai.jupyter"
             ],
             "settings": {
-                "python.defaultInterpreterPath": "/opt/conda/envs/aai4323_hw10/bin/python",
+                "python.defaultInterpreterPath": "/opt/conda/envs/sdi4313_hw1/bin/python",
                 "python.terminal.activateEnvironment": true,
                 "terminal.integrated.defaultProfile.linux": "bash",
                 "terminal.integrated.profiles.linux": {
