@@ -3,7 +3,7 @@
 set -x
 set -e
 
-echo "Creating or updating the AAI4323_HW10 Conda environment..."
+echo "Creating or updating the DSI4313_HW1 Conda environment..."
 
 conda env update \
     --name aai4323_hw10 \
@@ -12,15 +12,15 @@ conda env update \
 
 echo "Checking the environment..."
 
-conda run --name aai4323_hw10 python --version
-conda run --name aai4323_hw10 python -m pip check
+conda run --name sdi4313_hw1 python --version
+conda run --name sdi4313_hw1 python -m pip check
 
 echo "Registering the Jupyter kernel..."
 
-conda run --name aai4323_hw10 python -m ipykernel install \
+conda run --name sdi4313_hw1 python -m ipykernel install \
     --user \
-    --name aai4323_hw10 \
-    --display-name "Python (AAI4323_HW10)"
+    --name sdi4313_hw10 \
+    --display-name "Python (SDI4313_HW1)"
 
 echo "AAI4323_HW10 environment setup completed successfully."
 
